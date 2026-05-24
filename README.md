@@ -1,69 +1,73 @@
 ## 📖 Overview
 
-**CrisisGuard** is a **zero-backend, pure frontend** emergency response platform designed for hospitality environments like hotels, resorts, restaurants, and convention centers. It bridges the critical communication gap between distressed guests, on-site staff, and emergency responders during high-stakes situations.
+**CrisisGuard** is a **zero-backend, pure frontend** emergency response platform designed for **city citizens and public safety management**. It helps citizens instantly report emergencies while enabling authorities and responders to coordinate in real time during critical situations.
 
 ### The Problem
 
-| Issue | Impact |
-|-------|--------|
-| 60% of hotels lack integrated emergency systems | Delayed response |
-| Average response time: 8-10 minutes | Life-saving window: 3-5 minutes |
-| Fragmented communication | Chaos during crisis |
-| $4.2B annual loss | Financial & reputational damage |
+| Issue                                                  | Impact                                |
+| ------------------------------------------------------ | ------------------------------------- |
+| Lack of centralized emergency reporting systems        | Delayed emergency response            |
+| Average response time: 8-10 minutes                    | Critical response window: 3-5 minutes |
+| Fragmented communication between citizens & responders | Chaos during emergencies              |
+| Slow incident reporting and tracking                   | Increased risk to public safety       |
 
 ### Our Solution
 
 **Three Integrated Portals** working seamlessly together:
 
-| Portal | Users | Key Features |
-|--------|-------|--------------|
-| 🏨 **Citizen Portal** | Hotel Guests | SOS Button, Report Incident, Tracking Codes, Live Map |
-| 👔 **Staff Portal** | Hotel Staff | Acknowledge, Update Status, Emergency Calls |
-| 🎛️ **Admin Portal** | Management | Full Dashboard, Dispatch Teams, Broadcast, Analytics |
+| Portal                      | Users                | Key Features                                                     |
+| --------------------------- | -------------------- | ---------------------------------------------------------------- |
+| 🧑‍🤝‍🧑 **Citizen Portal** | City Citizens        | SOS Button, Incident Reporting, Tracking Codes, Live Map         |
+| 🚓 **Responder Portal**     | Emergency Responders | Incident Acknowledgement, Status Updates, Emergency Coordination |
+| 🎛️ **Admin Portal**        | City Authorities     | Full Dashboard, Dispatch Teams, Broadcast Alerts, Analytics      |
 
 ---
 
 ## ✨ Features
 
-### 🏨 Citizen Portal (Guests)
-- 🔴 **One-tap SOS Button** - Instant emergency alert with auto-location
-- 📝 **Incident Reporting** - Fire, Medical, Security, Disaster categories
-- 🔑 **Unique Tracking Codes** - 7-character code to track response progress
-- 🗺️ **Live Safety Map** - See active incidents and response teams nearby
-- 👤 **No Login Required** - Instant access for any guest
+### 🧑‍🤝‍🧑 Citizen Portal
 
-### 👔 Staff Portal (Hotel Staff)
-- 🔔 **Real-time Notifications** - Instant alerts for new incidents
-- ✅ **Acknowledge System** - Confirm response to command center
-- 📍 **Status Management** - Update availability (Available/Busy)
-- 📞 **Emergency Calling** - Direct dial to police, fire, ambulance
+* 🔴 **One-tap SOS Button** – Instant emergency alert with auto-location
+* 📝 **Incident Reporting** – Fire, Medical, Crime, Accident, Disaster categories
+* 🔑 **Unique Tracking Codes** – 7-character code to track response progress
+* 🗺️ **Live Safety Map** – View nearby incidents and emergency response activity
+* 👤 **No Login Required** – Quick access during emergencies
 
-### 🎛️ Admin Command Center (Management)
-- 📊 **Complete Dashboard** - All incidents at a glance with stats
-- 🗺️ **Live Dispatch Map** - Track all incidents and response teams
-- 👥 **Team Management** - Add, deploy, and manage response teams
-- 📢 **Emergency Broadcast** - Zone-specific or all-zone alerts
-- 📈 **Analytics** - Response time metrics, incident trends
+### 🚓 Responder Portal
+
+* 🔔 **Real-time Notifications** – Instant alerts for newly reported incidents
+* ✅ **Acknowledgement System** – Confirm response assignment
+* 📍 **Status Management** – Update responder availability
+* 📞 **Emergency Coordination** – Faster communication during crises
+
+### 🎛️ Admin Command Center
+
+* 📊 **Central Dashboard** – Monitor all incidents in real time
+* 🗺️ **Live Dispatch Map** – Track incidents and active responders
+* 👥 **Team Management** – Manage emergency response units
+* 📢 **Emergency Broadcasts** – City-wide or zone-specific alerts
+* 📈 **Analytics & Insights** – Response times, trends, and incident reports
 
 ---
 
 ## 🛠️ Technology Stack
 
-| Category | Technologies |
-|----------|--------------|
-| **Frontend** | HTML5, CSS3, JavaScript ES6+ |
-| **Mapping** | Leaflet.js, OpenStreetMap |
-| **Charts** | Chart.js |
-| **Icons** | Font Awesome |
-| **Storage** | Browser LocalStorage API |
-| **Deployment** | GitHub Pages / Netlify |
+| Category       | Technologies                 |
+| -------------- | ---------------------------- |
+| **Frontend**   | HTML5, CSS3, JavaScript ES6+ |
+| **Mapping**    | Leaflet.js, OpenStreetMap    |
+| **Charts**     | Chart.js                     |
+| **Icons**      | Font Awesome                 |
+| **Storage**    | Browser LocalStorage API     |
+| **Deployment** | GitHub Pages / Netlify       |
 
 ### Why No Backend?
-- ✅ Zero infrastructure cost
-- ✅ Instant deployment on static hosting
-- ✅ Works offline (PWA ready)
-- ✅ No database setup needed
-- ✅ Deploy in 2 minutes
+
+* ✅ Zero infrastructure cost
+* ✅ Instant deployment on static hosting
+* ✅ Works offline (PWA ready)
+* ✅ No database setup needed
+* ✅ Deploy in minutes
 
 ---
 
